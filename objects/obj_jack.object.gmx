@@ -53,8 +53,6 @@ died = 0;
             <kind>1</kind>
             <string>
 if (followit != noone) {
-//x = followit.x
-//y = followit.y
 phy_position_x += (followit.x -x);
 phy_position_y += (followit.y -y);
 }

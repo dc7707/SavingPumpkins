@@ -76,10 +76,6 @@ if (room == rm_start) {
     }
 }
 
-///Check Keys
-scr_get_input();
-
-
 if (room == rm_end) {
     createdcount = 0;
     while (createdcount &lt; global.savedcount) {
@@ -89,6 +85,8 @@ if (room == rm_end) {
     } 
 }
 
+///Check Keys
+scr_get_input();
 </string>
           </argument>
         </arguments>

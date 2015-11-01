@@ -21,26 +21,3 @@ vspd = lengthdir_y(len, dir);
 
 phy_position_x += hspd;
 phy_position_y += vspd;
-
-/*
-///Animate
-image_speed = 6 / room_speed;
-if (len == 0) {
-    image_index = 0;
-    sprite_index = spr_dan;
-}
-
-///Vertical Sprites
-if (vspd > 0) {
-    sprite_index = spr_dan_dn;
-} else if (vspd < 0) {
-    sprite_index = spr_dan_up;
-} 
-
-///Horizontal Sprites
-if (hspd > 0) {
-    sprite_index = spr_dan_right;
-} else if (hspd < 0) {
-    sprite_index = spr_dan_left;
-}
-*/
