@@ -85,6 +85,14 @@ if (room == rm_end) {
     } 
 }
 
+///BAD MOON
+if (global.savedcount == 5) {
+    if (instance_exists(obj_moon)) {
+        instance_create(obj_moon.x, obj_moon.y, obj_bloodthirsty_moon);
+        with obj_moon {instance_destroy()}
+    }
+}
+
 ///Check Keys
 scr_get_input();
 </string>

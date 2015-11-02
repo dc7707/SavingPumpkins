@@ -35,6 +35,7 @@
     <object>objects\obj_grave_big</object>
     <object>objects\obj_ground</object>
     <object>objects\obj_moon</object>
+    <object>objects\obj_bloodthirsty_moon</object>
     <object>objects\obj_blaze</object>
     <object>objects\obj_bat</object>
     <object>objects\obj_man</object>
